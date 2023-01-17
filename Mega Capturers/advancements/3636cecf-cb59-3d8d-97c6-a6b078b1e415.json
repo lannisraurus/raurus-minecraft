@@ -1,0 +1,554 @@
+{
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2017-04-18 14:34:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/polished_andesite": {
+    "criteria": {
+      "has_stone": "2017-04-18 15:19:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2017-04-18 14:48:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2017-04-18 14:48:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/dark_oak_stairs": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/brown_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lapis_ink_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2017-04-18 14:58:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/spruce_planks": {
+    "criteria": {
+      "has_log": "2017-04-18 14:59:33 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/stone_stairs": {
+    "criteria": {
+      "has_cobblestone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_lapis_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2017-04-18 14:58:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/dark_oak_wooden_slab": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/purple_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/furnace": {
+    "criteria": {
+      "has_cobblestone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_bonemeal": "2017-04-18 14:58:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2017-04-18 15:33:10 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "desert": "2017-04-18 14:18:03 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2017-04-18 16:56:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2017-04-18 14:34:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2017-04-18 14:58:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapdoor": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2017-04-18 14:18:02 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2017-04-18 14:25:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/pillar_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2017-04-18 14:48:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall": {
+    "criteria": {
+      "has_cobblestone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_ink_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2017-04-18 14:58:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/sandstone": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/cobblestone_slab": {
+    "criteria": {
+      "has_cobblestone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2017-04-18 14:25:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2017-04-18 15:19:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_pressure_plate": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/green_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/elytra": {
+    "criteria": {
+      "elytra": "2017-04-18 14:29:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2017-04-18 14:30:09 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2017-04-18 14:22:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2017-04-18 15:19:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2017-04-18 14:25:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2017-04-18 14:25:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/sign": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2017-04-18 14:25:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2017-04-18 14:48:49 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_shovel": {
+    "criteria": {
+      "has_cobblestone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/wooden_button": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/black_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/lime_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_bonemeal": {
+    "criteria": {
+      "has_bonemeal": "2017-04-18 14:58:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2017-04-18 14:25:54 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2017-04-18 14:28:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/bone_block": {
+    "criteria": {
+      "has_at_least_9_bonemeal": "2017-04-18 14:58:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_door": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/create_beacon": {
+    "criteria": {
+      "beacon": "2017-04-18 14:20:11 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/orange_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/white_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_at_least_9_gold_nugget": "2017-04-18 14:26:04 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2017-04-18 15:57:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_fence": {
+    "criteria": {
+      "has_planks": "2017-04-18 15:36:03 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_block": {
+    "criteria": {
+      "has_the_recipe": "2017-04-18 14:58:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2017-04-18 14:32:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2017-04-18 15:19:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/stonebrick": {
+    "criteria": {
+      "has_stone": "2017-04-18 15:19:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/pink_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_axe": {
+    "criteria": {
+      "has_cobblestone": "2017-04-18 15:19:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/red_concrete_powder": {
+    "criteria": {
+      "has_sand": "2017-04-18 14:43:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lime_dye": {
+    "criteria": {
+      "has_bonemeal": "2017-04-18 14:58:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_block": {
+    "criteria": {
+      "has_gold_block": "2017-04-18 15:31:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2017-04-18 14:19:31 +0200"
+    },
+    "done": true
+  }
+}

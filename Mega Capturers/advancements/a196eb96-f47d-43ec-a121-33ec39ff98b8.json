@@ -1,0 +1,542 @@
+{
+  "minecraft:recipes/redstone/noteblock": {
+    "criteria": {
+      "has_redstone": "2017-04-23 15:23:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald": {
+    "criteria": {
+      "has_the_recipe": "2017-04-23 15:05:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2017-04-23 14:31:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2017-04-23 14:31:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/gray_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2017-04-23 15:23:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/cyan_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2017-04-23 15:02:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/brown_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/light_blue_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stonebrick": "2017-04-23 14:34:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/black_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/purple_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2017-04-23 14:19:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/magenta_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/magenta_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2017-04-23 15:28:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "desert": "2017-04-23 14:17:58 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2017-04-23 15:02:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2017-04-23 15:13:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2017-04-23 14:19:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2017-04-23 15:04:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2017-04-23 15:23:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2017-04-23 14:17:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "entered_water": "2017-04-23 15:28:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/pillar_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2017-04-23 14:31:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2017-04-23 15:01:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2017-04-23 15:25:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2017-04-23 15:01:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "entered_water": "2017-04-23 15:28:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/green_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/green_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/coarse_dirt": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/smooth_sandstone": {
+    "criteria": {
+      "has_sandstone": "2017-04-23 14:32:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_flint": "2017-04-23 14:19:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2017-04-23 14:23:15 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/sandstone_stairs": {
+    "criteria": {
+      "has_sandstone": "2017-04-23 14:32:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/boat": {
+    "criteria": {
+      "entered_water": "2017-04-23 15:28:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/sandstone_slab": {
+    "criteria": {
+      "has_sandstone": "2017-04-23 14:32:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "entered_water": "2017-04-23 15:28:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/cyan_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "entered_water": "2017-04-23 15:28:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2017-04-23 14:19:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/pink_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2017-04-23 14:19:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/lime_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2017-04-23 14:31:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/black_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2017-04-23 14:18:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/lime_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2017-04-23 15:23:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "entered_water": "2017-04-23 15:28:36 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/stone_brick_slab": {
+    "criteria": {
+      "has_stonebrick": "2017-04-23 14:34:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/blue_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_carpet": {
+    "criteria": {
+      "has_yellow_wool": "2017-04-23 15:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_at_least_9_redstone": "2017-04-23 15:23:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_banner": {
+    "criteria": {
+      "has_yellow_wool": "2017-04-23 15:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "shot_arrow": "2017-04-23 15:02:55 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2017-04-23 14:19:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/create_beacon": {
+    "criteria": {
+      "beacon": "2017-04-23 14:21:51 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/orange_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2017-04-23 15:23:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/orange_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2017-04-23 15:01:21 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/chiseled_stonebrick": {
+    "criteria": {
+      "has_stonebrick": "2017-04-23 14:34:29 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/chiseled_sandstone": {
+    "criteria": {
+      "has_sandstone": "2017-04-23 14:32:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/light_gray_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/white_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/light_blue_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/light_gray_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/purple_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/red_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/yellow_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2017-04-23 14:19:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_bed": {
+    "criteria": {
+      "has_yellow_wool": "2017-04-23 15:19:28 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/yellow_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/emerald_block": {
+    "criteria": {
+      "has_at_least_9_emerald": "2017-04-23 15:05:16 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/brown_wool": {
+    "criteria": {
+      "has_white_wool": "2017-04-23 14:38:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2017-04-23 15:23:22 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/pink_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/buildingblocks/red_concrete_powder": {
+    "criteria": {
+      "has_gravel": "2017-04-23 14:38:39 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2017-04-23 15:25:44 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2017-04-23 15:02:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2017-04-23 15:02:34 +0200"
+    },
+    "done": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "minecraft:recipes/decorations/purple_shulker_box": {
+    "criteria": {
+      "has_the_recipe": "2017-04-11 14:46:02 +0200",
+      "has_shulker_shell": "2017-04-11 14:46:02 +0200"
+    },
+    "done": true
+  }
+}
