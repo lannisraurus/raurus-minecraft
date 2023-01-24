@@ -11,7 +11,7 @@ Set the scores of a team (usually to force end a match):
 ```
 /scoreboard players set RED SCORES 10000
 ```
-#Gamemodes - Tower Capture
+# Gamemodes - Tower Capture
 The tower capture gamemode consists of capturing three towers; Each time you capture your Team's score increases; kills also contribute to the score; upon capturing all points, your score starts steadily increasing, and the game ends at a score of 10000.
 <p align="center">
   <img src="towers-map.png" />
