@@ -17,4 +17,28 @@ The tower capture gamemode consists of capturing three towers; Each time you cap
   <img src="towers-map.png" />
 </p>
 
+# Gamemodes - Team Deathmatch
+This gamemode consists in pure violence, rage and combat! The only objective is to kill enemies and reach 10000 score. The map is different:
+<p align="center">
+  <img src="tdm-map.png" />
+</p>
+
+# Characters
+The mechanics for the characters are all similar - pressing `Q` with an ability selected to use it (besides potions and GApple).
+All the character information is documented in the character's handbook (to select a character simply go over the pod in the lobby)
+<p align="center">
+  <img src="lobby.png" />
+</p>
+
+Here is a list of the characters:
+* Raurus - The speed-poison demon
+* Archer - The ranger
+* Ion - The healer
+* Frost - The Ice Mage
+* Shadow Assassin - The Master of Illusion
+* Silver Mecha - Warden of chains and warper of space
+* Guardian - Protector of the realm
+* Captain Slime - The strategist
+
+# Final note
 Enjoy!
