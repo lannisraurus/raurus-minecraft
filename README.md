@@ -1,7 +1,7 @@
 # Overview
 `Minecraft PVP map for 1.12.2` (Very old and a bit unpolished, still fun to play with friends!)
 Disclaimer: I am HXadow (one of my many names...)
-This Map was made by me and Hexa (`LucasPatricio3` on github, check him out!) as a fun project.
+This Map was made by me and Hexa ([LucasPatricio3](https://github.com/LucasPatricio3) on github, check him out!) as a fun project.
 # Useful commands
 Set the start score (decreases until zero -> game starts) \[glass doors are closed for START = 0\]:
 ```
