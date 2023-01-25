@@ -1,5 +1,5 @@
 # Overview
-Minecraft PVP map for 1.12.2 (Very old and a bit unpolished, still fun to play with friends!)
+`Minecraft PVP map for 1.12.2 (Very old and a bit unpolished, still fun to play with friends!)
 Disclaimer: I am HXadow (one of my many names...)
 This Map was made by me and Hexa (`LucasPatricio3` \[also known as Hexa\] on github, check him out!) as a fun project.
 # Useful commands
