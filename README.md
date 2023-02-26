@@ -32,7 +32,7 @@ All the character information is documented in the character's handbook (to sele
 
 Here is a list of the characters:
 * Raurus - The speed-poison demon
-Passive - Running acceleration
+Passive - Running acceleration</br>
 Poison Sword - Inflicts poison
 Poison Flask - Inflicts poison
 Speed Stone - Makes you reach Ludicrous speeds
