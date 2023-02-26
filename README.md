@@ -33,47 +33,47 @@ All the character information is documented in the character's handbook (to sele
 Here is a list of the characters:
 * Raurus - The speed-poison demon
 Passive - Running acceleration</br>
-Poison Sword - Inflicts poison
-Poison Flask - Inflicts poison
-Speed Stone - Makes you reach Ludicrous speeds
-Golden apple - buffs and heals you, whilst paralysing nearby enemies
-* Archer - The ranger
-Passive - Archer's agility
-Bow - shoots arrows
-Shard - close range weapon
-Health Potion - heals you
-Wither Star - Reveals enemies and inflitcts withering
-* Ion - The healer
-Sword - Low damage
-Red - Heals nearby players and yourself
-Pink - Shields you from damage
-Purple - life-steal nearby enemies
-* Frost - The Ice Mage
-Axe - Deal damage
-Avalanche - Summon an avalanche that drags enemies
-Freeze - Freezes all enemies around you, preventing EVERYONE from dealing damage
-Ice Totem - Attacks players and makes them move slower
-* Shadow Assassin - The Master of Illusion
-Assassin's Sword - High damage dealing weapon
-Death Mark - teleport to nearby player and deal damage
-Shadow Clone - Summon a clone and teleport randomly to the highest point possible
-Death Sentence - 5 consecutive death marks
-* Silver Mecha - Warden of chains and warper of space
-Silver scythe - damage dealing
-Summon Fangs - summons a directional row of fangs
-Portal - places portal, use again to teleport and gain health
-Bound - teleport random enemy to you
-* Guardian - Protector of the realm
-Golden Axe - Deals damage
-Golden Minions - Summons 3 minions
-Overclock armour - Become invincible, but can't deal damage or move. Also heal a bit.
-Great Minion - Summon a giant minion
-* Captain Slime - The strategist
-Passive - Charge jumps with shift
-Knockback shovel - Deals immense knockback
-Slime landmines - Explode uppon contact
-Groundpound - Jump up and slam down dealing withering damage and stunning oponents into the air
-Reverser - Spawn a minion that shields you from attacks and converts minions to your team
+Poison Sword - Inflicts poison</br>
+Poison Flask - Inflicts poison</br>
+Speed Stone - Makes you reach Ludicrous speeds</br>
+Golden apple - buffs and heals you, whilst paralysing nearby enemies</br>
+* Archer - The ranger</br>
+Passive - Archer's agility</br>
+Bow - shoots arrows</br>
+Shard - close range weapon</br>
+Health Potion - heals you</br>
+Wither Star - Reveals enemies and inflitcts withering</br>
+* Ion - The healer</br>
+Sword - Low damage</br>
+Red - Heals nearby players and yourself</br>
+Pink - Shields you from damage</br>
+Purple - life-steal nearby enemies</br>
+* Frost - The Ice Mage</br>
+Axe - Deal damage</br>
+Avalanche - Summon an avalanche that drags enemies</br>
+Freeze - Freezes all enemies around you, preventing EVERYONE from dealing damage</br>
+Ice Totem - Attacks players and makes them move slower</br>
+* Shadow Assassin - The Master of Illusion</br>
+Assassin's Sword - High damage dealing weapon</br>
+Death Mark - teleport to nearby player and deal damage</br>
+Shadow Clone - Summon a clone and teleport randomly to the highest point possible</br>
+Death Sentence - 5 consecutive death marks</br>
+* Silver Mecha - Warden of chains and warper of space</br>
+Silver scythe - damage dealing</br>
+Summon Fangs - summons a directional row of fangs</br>
+Portal - places portal, use again to teleport and gain health</br>
+Bound - teleport random enemy to you</br>
+* Guardian - Protector of the realm</br>
+Golden Axe - Deals damage</br>
+Golden Minions - Summons 3 minions</br>
+Overclock armour - Become invincible, but can't deal damage or move. Also heal a bit.</br>
+Great Minion - Summon a giant minion</br>
+* Captain Slime - The strategist</br>
+Passive - Charge jumps with shift</br>
+Knockback shovel - Deals immense knockback</br>
+Slime landmines - Explode uppon contact</br>
+Groundpound - Jump up and slam down dealing withering damage and stunning oponents into the air</br>
+Reverser - Spawn a minion that shields you from attacks and converts minions to your team</br>
 
 # Final note
 Enjoy!
