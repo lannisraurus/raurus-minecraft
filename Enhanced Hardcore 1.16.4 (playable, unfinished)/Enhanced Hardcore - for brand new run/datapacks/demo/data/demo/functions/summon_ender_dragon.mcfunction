@@ -1,0 +1,2 @@
+execute in minecraft:the_end run summon ender_dragon -8 86 -1 {Tags:["dragon1","dragon"],CustomName:'{"text":"-","color":"#9900BF"}'}
+execute in minecraft:the_end run summon ender_dragon -8 86 -1 {Tags:["dragon2","dragon"],CustomName:'{"text":"-","color":"#9900BF"}'}

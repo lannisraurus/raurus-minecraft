@@ -1,0 +1,3 @@
+execute positioned 10061 256 9927 unless entity @e[tag=rain,type=snow_golem] run summon snow_golem ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:0b,PersistenceRequired:1b,NoAI:1b,Health:1000f,Tags:["rain"],ActiveEffects:[{Id:10b,Amplifier:100b,Duration:1000000,ShowParticles:0b},{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:1000}]}
+execute if entity @e[tag=rain,type=snow_golem,nbt={HurtTime:10s}] run scoreboard players set rain rain 20
+execute if score rain rain matches 1.. run scoreboard players remove rain rain 1
