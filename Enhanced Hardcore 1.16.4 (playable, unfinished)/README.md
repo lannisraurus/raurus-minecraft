@@ -35,7 +35,7 @@ There are special custom mobs assigned to creepers, zombies and skeletons. Explo
 
 Killing mobs grants the player blood essence, useful for custom crafting
 
-#Bonfire sacrifices
+# Bonfire sacrifices
 
 You can throw items on the hub bonfire to get potion effects.
 
