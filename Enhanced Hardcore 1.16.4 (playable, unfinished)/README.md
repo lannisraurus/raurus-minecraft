@@ -1,6 +1,10 @@
 # Overview
 
 Explore the world of Arcana before the great magical expansion (this is set before the story of Fantasia Arcana). This map is in hardcore mode; if players aren't revived (this is a mechanic), they die forever. If everyone dies the game ends! The map isn't complete, however it is playable and open for editing. The map is better played with an admin in creative mode doing roleplay and adding content and a group of players just doing regular survival. Enjoy!
+<p align="center">
+  <img src="lobby.png" />
+</p>
+
 
 # Class System
 
@@ -37,7 +41,14 @@ You can throw items on the hub bonfire to get potion effects.
 
 # Progression system
 
-In the *End Dimension* players can find a hallway that must be cleared up by progressing through the game - *proofs of progress*. After clearing the hallway the players get the chance of fighting against the final boss - Leonhard and Theodore.
+In the *End Dimension* players can find a hallway that must be cleared up by progressing through the game - *proofs of progress*.</br>
+<p align="center">
+  <img src="progress.png" />
+</p>
+After clearing the hallway the players get the chance of fighting against the final boss - Leonhard and Theodore.
+<p align="center">
+  <img src="boss.png" />
+</p>
 
 # Sky Castle
 
@@ -47,6 +58,21 @@ A hidden location accessible through a cursed tome, sold by the Void Merchant. I
 
 These NPC's trade valuable items:</br></br>
 The Prince of Cures sells items to cure ailments and *revive dead players - the arcane heart*.</br></br>
+<p align="center">
+  <img src="prince.png" />
+</p>
 The Alchemist sells potions.</br></br>
+<p align="center">
+  <img src="alchemist.png" />
+</p>
 The Enchanter sells spell books and other magical items.</br></br>
+<p align="center">
+  <img src="enchantericon.png" />
+</p>
 The Void Merchant, located in the *Void* (accessible in the hub), sells forbidden items.
+<p align="center">
+  <img src="portals.png" />
+</p>
+<p align="center">
+  <img src="void.png" />
+</p>
