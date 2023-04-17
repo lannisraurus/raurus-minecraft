@@ -1,0 +1,3 @@
+# Overview
+
+Explore the world of Arcana before the great magical expansion (this is set before the story of Fantasia Arcana). This map is in hardcore mode; if players aren't revived (this is a mechanic), they die forever. If everyone dies the game ends! The map isn't complete, however it is playable and open for editing. The map is better played with an admin in creative mode doing roleplay and adding content and a group of players just doing regular survival. Enjoy! 
