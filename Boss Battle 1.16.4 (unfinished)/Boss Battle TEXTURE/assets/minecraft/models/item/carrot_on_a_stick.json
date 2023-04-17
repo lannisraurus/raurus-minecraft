@@ -1,0 +1,28 @@
+{
+    "parent": "item/handheld_rod",
+    "textures": {
+        "layer0": "item/carrot_on_a_stick"
+    },
+	"overrides": [
+		{"predicate":{"custom_model_data":1},"model":"item/carrot_on_a_stick/thunder_talisman"},
+		{"predicate":{"custom_model_data":2},"model":"item/carrot_on_a_stick/healing_talisman"},
+		{"predicate":{"custom_model_data":3},"model":"item/carrot_on_a_stick/abyss_ability"},
+		{"predicate":{"custom_model_data":4},"model":"item/carrot_on_a_stick/holy_sword"},
+		{"predicate":{"custom_model_data":5},"model":"item/carrot_on_a_stick/wraith_sword"},
+		{"predicate":{"custom_model_data":6},"model":"item/carrot_on_a_stick/fire_sword"}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	]
+}

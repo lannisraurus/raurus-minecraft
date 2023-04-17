@@ -1,0 +1,47 @@
+{
+  "type": {
+    "name": "minecraft:abyss",
+    "ultrawarm": false,
+    "natural": true,
+    "piglin_safe": false,
+    "respawn_anchor_works": false,
+    "bed_works": false,
+    "has_raids": true,
+    "has_skylight": false,
+    "has_ceiling": true,
+    "coordinate_scale": 1,
+    "ambient_light": 0,
+    "fixed_time": 17000,
+    "logical_height": 256,
+    "infiniburn": "minecraft:infiniburn_overworld",
+    "min_y": 0,
+    "height": 256
+  },
+  "generator": {
+    "type": "minecraft:flat",
+    "seed": -1412706229,
+    "settings": {
+      "biome": "minecraft:abyss",
+      "lakes": false,
+      "disable_mob_generation": true,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:black_concrete",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 5
+        },
+        {
+          "block": "minecraft:black_concrete",
+          "height": 1
+        }
+      ],
+      "structures": {
+        "structures": {}
+      }
+    }
+  }
+}

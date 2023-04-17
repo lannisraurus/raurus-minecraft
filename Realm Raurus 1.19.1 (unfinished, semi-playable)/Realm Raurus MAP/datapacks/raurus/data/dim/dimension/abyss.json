@@ -1,0 +1,26 @@
+{
+  "type": "dim:dark",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "dim:black",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:black_concrete",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 5
+        },
+        {
+          "block": "minecraft:black_concrete",
+          "height": 1
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

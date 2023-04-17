@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/iron_sword"
+  },
+	"overrides": [
+		{"predicate":{"custom_model_data":1},"model":"item/sword1"},
+		{"predicate":{"custom_model_data":2},"model":"item/sword2"},
+		{"predicate":{"custom_model_data":3},"model":"item/sword3"},
+		{"predicate":{"custom_model_data":4},"model":"item/sword4"},
+		{"predicate":{"custom_model_data":5},"model":"item/sword5"},
+		{"predicate":{"custom_model_data":6},"model":"item/sword6"}
+	]
+}

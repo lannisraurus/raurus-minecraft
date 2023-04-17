@@ -1,0 +1,18 @@
+{
+  "type": "dim:bright",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "dim:golden",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:barrier",
+          "height": 1
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

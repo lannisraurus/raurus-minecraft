@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "dim:blue",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:black_concrete",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 4
+        },
+        {
+          "block": "minecraft:black_concrete",
+          "height": 1
+        },
+        {
+          "block": "minecraft:dirt",
+          "height": 51
+        },
+        {
+          "block": "minecraft:grass_block",
+          "height": 1
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

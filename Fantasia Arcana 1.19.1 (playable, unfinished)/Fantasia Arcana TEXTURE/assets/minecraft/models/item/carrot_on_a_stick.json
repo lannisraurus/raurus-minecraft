@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "minecraft:item/carrot_on_a_stick"
+  },
+	"overrides": [
+		{"predicate":{"custom_model_data":1},"model":"item/wand1"},
+		{"predicate":{"custom_model_data":2},"model":"item/wand2"},
+		{"predicate":{"custom_model_data":3},"model":"item/wand3"},
+		{"predicate":{"custom_model_data":4},"model":"item/wand4"},
+		{"predicate":{"custom_model_data":5},"model":"item/wand5"},
+		{"predicate":{"custom_model_data":6},"model":"item/wand6"},
+		{"predicate":{"custom_model_data":7},"model":"item/wand7"},
+		{"predicate":{"custom_model_data":8},"model":"item/wand8"},
+		{"predicate":{"custom_model_data":9},"model":"item/wand9"},
+		{"predicate":{"custom_model_data":10},"model":"item/wand10"},
+		{"predicate":{"custom_model_data":11},"model":"item/wand11"},
+		{"predicate":{"custom_model_data":11},"model":"item/wand12"}
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "values":[
+	"minecraft:stone",
+	"minecraft:andesite",
+	"minecraft:diorite",
+	"minecraft:granite"
+  ]
+}
+
+# This is a demo block tag.
+# By adding blocks, seperated by commas,
+# you can group them in your map so you can
+# reference them all at once. For this example,
+# doing like /fill ~ ~ ~ ~ ~ ~ air replace #minecraft:stone
+# will replace all stone,andesite,diorite,granite with air.
