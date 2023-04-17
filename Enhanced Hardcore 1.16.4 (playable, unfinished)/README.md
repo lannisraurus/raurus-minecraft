@@ -67,7 +67,7 @@ The Alchemist sells potions.</br></br>
 </p>
 The Enchanter sells spell books and other magical items.</br></br>
 <p align="center">
-  <img src="enchantericon.png" />
+  <img src="enchanter.png" />
 </p>
 The Void Merchant, located in the *Void* (accessible in the hub), sells forbidden items.
 <p align="center">
