@@ -1,0 +1,37 @@
+{
+  "type": "raurus:abyss",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "raurus:abyss",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:black_concrete",
+          "height": 1
+        },
+        {
+          "block": "minecraft:air",
+          "height": 2
+        },
+        {
+          "block": "minecraft:air",
+          "height": 3
+        },
+        {
+          "block": "minecraft:air",
+          "height": 4
+        },
+        {
+          "block": "minecraft:air",
+          "height": 5
+        },
+        {
+          "block": "minecraft:black_concrete",
+          "height": 6
+        }
+      ]
+    }
+  }
+}

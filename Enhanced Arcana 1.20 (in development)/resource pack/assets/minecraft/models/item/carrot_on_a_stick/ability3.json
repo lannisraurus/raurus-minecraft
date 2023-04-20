@@ -1,0 +1,30 @@
+{
+    "parent": "item/generated",
+    "display":  {
+
+		"thirdperson_righthand": {
+        		"rotation": [ 0, -90, 55 ],
+       			"translation": [ 0, 8.0, -1 ],
+        		"scale": [ 0, 0, 0 ]
+   	 	},
+    		"thirdperson_lefthand": {
+        		"rotation": [ 0, 90, -55 ],
+        		"translation": [ 0, 8.0, -1 ],
+        		"scale": [ 0, 0, 0 ]
+    		},
+    		"firstperson_righthand": {
+        		"rotation": [ 0, -90, 25 ],
+        		"translation": [ 1.13, 3.2, 1 ],
+        		"scale": [ 0, 0, 0 ]
+    		},
+    		"firstperson_lefthand": {
+        		"rotation": [ 0, 90, -25 ],
+        		"translation": [ 1.13, 3.2, 1 ],
+        		"scale": [ 0, 0, 0 ]
+    }
+
+},
+    "textures": {
+        "layer0": "item/carrot_on_a_stick/ability3"
+    }
+}
