@@ -1148,5 +1148,59 @@
     },
     "done": true
   },
-  "DataVersion": 3445
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2023-04-20 15:59:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_sword": "2023-04-20 16:41:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_sword": "2023-04-20 16:41:03 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2023-04-20 21:02:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2023-04-20 21:02:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2023-04-20 21:02:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2023-04-20 21:02:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2023-04-20 21:56:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pickaxe": "2023-04-20 21:56:52 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 3449
 }

@@ -1,3 +1,13 @@
+# kill mobs
+
+
+
+
+
+
+
+
+
 
 # lvl up system
 scoreboard players set @a[scores={ lvl_agi=1.. }] lvl_agi 0

@@ -222,13 +222,23 @@ effect clear @a[tag=cured] nausea
 
 
 
+## break legs
+
+
+scoreboard players set @a[scores={fall=1400.., broken_bones_time=..0}] broken_bones_time 2400
+
+tellraw @a[scores={broken_bones_time=2400..}] {"text":"- You broke your bones -"}
+effect give @a[scores={broken_bones_time=2400..}] blindness 2 1 true
+effect give @a[scores={broken_bones_time=0..}] slowness 1 1 true
+execute at @a[scores={broken_bones_time=2400..}] run playsound minecraft:entity.wither.break_block ambient @a[distance=..2] ~ ~ ~ 1 2.00
+execute at @a[scores={broken_bones_time=2400..}] run playsound minecraft:entity.wither.break_block ambient @a[distance=..2] ~ ~ ~ 1 1.90
+execute at @a[scores={broken_bones_time=2400..}] run playsound minecraft:entity.wither.break_block ambient @a[distance=..2] ~ ~ ~ 1 1.80
+
+scoreboard players remove @a[scores={broken_bones_time=0..}] broken_bones_time 1
 
 
 
-
-
-
-
+scoreboard players set @a fall 0
 
 
 

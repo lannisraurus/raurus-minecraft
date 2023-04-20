@@ -70,7 +70,8 @@
 		{"predicate":{"custom_model_data":64},"model":"item/carrot_on_a_stick/armour17"},
 		{"predicate":{"custom_model_data":65},"model":"item/carrot_on_a_stick/armour18"},
 		{"predicate":{"custom_model_data":66},"model":"item/carrot_on_a_stick/armour19"},
-		{"predicate":{"custom_model_data":67},"model":"item/carrot_on_a_stick/hammer"}
+		{"predicate":{"custom_model_data":67},"model":"item/carrot_on_a_stick/hammer"},
+		{"predicate":{"custom_model_data":68},"model":"item/carrot_on_a_stick/scroll"}
 	
 	]
 }

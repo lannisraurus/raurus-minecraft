@@ -13,6 +13,7 @@ function raurus:interstice/npcs
 function raurus:magic/warp
 function raurus:magic/levels
 function raurus:magic/mana
+function raurus:magic/spells
 function raurus:magic/display
 function raurus:magic/exp
 function raurus:status_effects/status_effects
@@ -41,3 +42,6 @@ execute store result score day time run time query day
 
 # fire time
 execute as @a store result score @s fire run data get entity @s Fire
+
+# pig brainless hehe
+execute as @e[type=pig] run data merge entity @s {Attributes:[{Name:generic.follow_range,Base:0}]}
