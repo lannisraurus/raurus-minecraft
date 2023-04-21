@@ -21,11 +21,13 @@ scoreboard players set @s lives 0
 scoreboard players set @s blood 0
 scoreboard players set @s broken_bones_time 0
 scoreboard players set @s blacksmith_fire_cooldown 10000
+scoreboard players set @s lunacy_time 0
 
 # magic resets
 tag @s remove knows_soul_pellet
 tag @s remove knows_soul_arrows
 tag @s remove knows_soul_orb
+tag @s remove knows_bottany
 
 tag @s add update_player
 

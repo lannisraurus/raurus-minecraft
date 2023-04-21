@@ -20,3 +20,29 @@ effect give @a[nbt={Dimension:"raurus:interstice"}] weakness 1 255 true
 
 
 
+
+
+
+
+
+
+
+
+execute if score interstice time matches 1 in raurus:interstice positioned -54 77 4 run playsound minecraft:block.beacon.ambient master @a[distance=..10] ~ ~ ~ 1 2
+execute if score interstice time matches 1 in raurus:interstice positioned -54 77 4 run playsound minecraft:block.beacon.power_select master @a[distance=..10] ~ ~ ~ 1 0
+execute in raurus:interstice positioned -54 78.8 4 run playsound minecraft:ambient.warped_forest.mood master @a[distance=..10] ~ ~ ~ 0.5 0
+execute in raurus:interstice positioned -54 78.8 4 run playsound minecraft:block.beacon.ambient master @a[distance=..10] ~ ~ ~ 0.8 0
+execute in raurus:interstice positioned -54 78.8 4 run playsound minecraft:block.beacon.ambient master @a[distance=..10] ~ ~ ~ 0.8 1
+execute in raurus:interstice positioned -54 78.8 4 run particle dust 0 0 0 2.6 ~ ~ ~ 0 0 0 0 1 force
+execute in raurus:interstice positioned -54 78.8 4 run particle dust 1 1 1 0.5 ~ ~ ~ 0.2 0.3 0.2 0 3 force
+execute if score interstice time matches 1 in raurus:interstice positioned -54 77 4 run particle enchant ~ ~ ~ 2 3 2 0.5 10 force
+execute if score interstice time matches 1 in raurus:interstice positioned -54 77 4 run particle end_rod ~ ~ ~ 0 50 0 0 10 force
+
+
+
+
+
+
+
+
+

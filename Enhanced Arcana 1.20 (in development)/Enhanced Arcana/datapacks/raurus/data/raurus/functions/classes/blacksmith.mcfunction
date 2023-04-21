@@ -11,11 +11,12 @@ scoreboard players set @a[scores={blacksmith_fire_cooldown=1200.. , fire=1..}] b
 
 
 
-execute as @a[tag=!in_abyss,tag=!in_interstice,nbt={SelectedItem:{tag:{blacksmith_hammer:1b}}}] at @s rotated ~ 0 run summon interaction ^ ^ ^1.5 {width:0.3f,height:0.2f,Tags:["blacksmith_interaction"]}
-execute at @e[tag=blacksmith_interaction,type=interaction] unless block ~ ~-1 ~ air if block ~ ~ ~ air run particle flame ~ ~ ~ 0 0 0 0.01 1 normal
+execute as @a[tag=!in_interstice,nbt={SelectedItem:{tag:{blacksmith_hammer:1b}}}] at @s rotated ~ 0 run summon interaction ^ ^ ^1.5 {width:0.3f,height:0.2f,Tags:["blacksmith_interaction"]}
+execute as @e[tag=blacksmith_interaction] if block ~ ~-0.5 ~ minecraft:dirt_path run kill @s
+execute at @e[tag=blacksmith_interaction,type=interaction] unless block ~ ~-1 ~ air unless block ~ ~-0.5 ~ dirt_path if block ~ ~ ~ air run particle flame ~ ~ ~ 0 0 0 0.01 1 normal
 scoreboard players add @e[tag=blacksmith_interaction,type=interaction] time 1
 
-execute as @e[tag=blacksmith_interaction,type=interaction] at @s unless block ~ ~-1 ~ air if block ~ ~ ~ air on target if entity @s[tag=blacksmith] run summon marker ~ ~ ~ {Invulnerable:0b,Tags:["blacksmith_anvil"]}
+execute as @e[tag=blacksmith_interaction,type=interaction] at @s unless block ~ ~-0.5 ~ dirt_path unless block ~ ~-1 ~ air if block ~ ~ ~ air on target if entity @s[tag=blacksmith] run summon marker ~ ~ ~ {Invulnerable:0b,Tags:["blacksmith_anvil"]}
 
 execute as @e[tag=blacksmith_interaction,type=interaction] at @s unless block ~ ~-1 ~ air if block ~ ~ ~ air on target if entity @s[tag=blacksmith] run particle smoke ~ ~ ~ 0.6 0.6 0.6 0.03 30 force
 execute as @e[tag=blacksmith_interaction,type=interaction] at @s unless block ~ ~-1 ~ air if block ~ ~ ~ air on target if entity @s[tag=blacksmith] run particle cloud ~ ~ ~ 0.6 0.6 0.6 0.03 30 force
@@ -48,7 +49,7 @@ execute as @e[tag=blacksmith_anvil] at @s unless block ~ ~ ~ anvil run kill @e[t
 execute as @e[tag=blacksmith_anvil] at @s unless block ~ ~ ~ anvil run kill @s
 
 
-kill @e[tag=blacksmith_interaction,type=interaction,scores={time=2..}]
+kill @e[tag=blacksmith_interaction,type=interaction,scores={time=3..}]
 
 
 

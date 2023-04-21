@@ -65,7 +65,7 @@ execute at @e[scores={poison_time=1..}] run particle minecraft:sculk_charge_pop 
 effect give @a[tag=poisoned] wither 20 0 true
 effect give @e[tag=poisoned,type=!player] wither 20 0 true
 
-scoreboard players remove @a[scores={poison_time=1..}] poison_time 1
+scoreboard players remove @e[scores={poison_time=1..}] poison_time 1
 
 
 # BURNING
@@ -102,13 +102,13 @@ execute as @a[tag=rooted,scores={root_time=..0}] at @s run playsound minecraft:e
 execute as @a[tag=rooted,scores={root_time=..0}] at @s run playsound minecraft:entity.iron_golem.repair ambient @s ~ ~ ~ 0.5 1.00
 execute as @a[tag=rooted,scores={root_time=..0}] at @s run playsound minecraft:entity.iron_golem.repair ambient @s ~ ~ ~ 0.5 0.50
 
-scoreboard players set @a[tag=rooted] root_time 150
+scoreboard players set @e[tag=rooted] root_time 150
 
-scoreboard players remove @a[scores={root_time=1..}] root_time 1
+scoreboard players remove @e[scores={root_time=1..}] root_time 1
 
-effect give @a[scores={root_time=1..}] slowness 1 3 true
+effect give @e[scores={root_time=1..}] slowness 1 3 true
 
-execute at @a[scores={root_time=1..}] run particle ash ~ ~0.3 ~ 0.3 0 0.3 0 3 normal
+execute at @e[scores={root_time=1..}] run particle ash ~ ~0.3 ~ 0.3 0 0.3 0 3 normal
 
 
 
@@ -186,7 +186,7 @@ execute as @a[tag=regen,scores={regen_time=..0}] at @s run playsound minecraft:b
 execute as @a[tag=regen,scores={regen_time=..0}] at @s run playsound minecraft:block.beacon.power_select ambient @s ~ ~ ~ 1 2.00
 execute as @a[tag=regen,scores={regen_time=..0}] at @s run playsound minecraft:block.beacon.power_select ambient @s ~ ~ ~ 1 0.00
 
-effect give @a[tag=regen,scores={regen_time=..10}] regeneration 20 1 true
+effect give @a[tag=regen,scores={regen_time=..10}] regeneration 20 0 true
 scoreboard players set @a[tag=regen,scores={regen_time=..10}] regen_time 400
 
 execute at @a[scores={regen_time=1..}] run particle happy_villager ~ ~1 ~ 0.4 0.5 0.4 0 1 normal
@@ -225,7 +225,7 @@ effect clear @a[tag=cured] nausea
 ## break legs
 
 
-scoreboard players set @a[scores={fall=1400.., broken_bones_time=..0}] broken_bones_time 2400
+scoreboard players set @a[tag=!seraph_cleric,scores={fall=1400.., broken_bones_time=..0}] broken_bones_time 2400
 
 tellraw @a[scores={broken_bones_time=2400..}] {"text":"- You broke your bones -"}
 effect give @a[scores={broken_bones_time=2400..}] blindness 2 1 true

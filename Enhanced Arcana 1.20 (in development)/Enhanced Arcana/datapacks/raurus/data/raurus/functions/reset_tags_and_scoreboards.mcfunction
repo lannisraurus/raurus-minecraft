@@ -52,6 +52,7 @@ tag @a remove tp_overworld
 scoreboard players set @a exp_kill 0
 scoreboard players set @a is_sneaking 0
 scoreboard players set @a use_carrot_on_a_stick 0
+scoreboard players set @a use_bow 0
 scoreboard players set @a walk 0
 scoreboard players set @a run 0
 scoreboard players set @a jump 0
