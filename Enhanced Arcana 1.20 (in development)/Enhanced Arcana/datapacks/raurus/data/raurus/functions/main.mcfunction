@@ -6,6 +6,8 @@ function raurus:death
 function raurus:crafting
 
 function raurus:overworld/safe
+function raurus:tundra/settings
+function raurus:soul_lake/settings
 
 function raurus:classes/blacksmith
 function raurus:classes/arcane_sorcerer
@@ -23,6 +25,7 @@ function raurus:magic/warp
 function raurus:magic/levels
 function raurus:magic/mana
 function raurus:magic/spells
+function raurus:magic/scrolls
 function raurus:magic/display
 function raurus:magic/exp
 function raurus:status_effects/status_effects

@@ -43,6 +43,15 @@ execute if score interstice time matches 1 in raurus:interstice positioned -54 7
 
 
 
+# triggar warp info
+
+execute in raurus:interstice positioned -31 82 2 unless entity @e[tag=warp_info] run summon text_display ~ ~ ~ {billboard:"vertical",Tags:["warp_info"],text:'{"text":"To travel to the overworld and back:\\n/trigger warp set 1","color":"blue"}'}
 
 
 
+# soul soul_lake
+
+execute in raurus:interstice positioned -48 84.5 24.999 unless entity @e[tag=soul_lake_go] run summon text_display ~ ~ ~ {billboard:"vertical",Tags:["soul_lake_go"],text:'{"text":"Right Click - Soul Lake","color":"#00FFB3"}'}
+execute in raurus:interstice positioned -48 84 24.999 unless entity @e[tag=soul_lake_go_interaction] run summon interaction ~ ~ ~ {Tags:["soul_lake_go_interaction"]}
+execute as @e[tag=soul_lake_go_interaction] on target in raurus:soul_lake run tp @s 9890 57 10038
+execute as @e[tag=soul_lake_go_interaction] at @s on target run kill @e[tag=soul_lake_go_interaction]
