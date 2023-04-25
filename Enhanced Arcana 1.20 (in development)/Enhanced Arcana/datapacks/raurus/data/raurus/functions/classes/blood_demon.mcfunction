@@ -1,1 +1,0 @@
-effect clear @a[tag=blood_demon] hunger
