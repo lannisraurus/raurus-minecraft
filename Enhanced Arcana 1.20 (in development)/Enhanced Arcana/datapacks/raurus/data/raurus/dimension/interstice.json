@@ -1,0 +1,17 @@
+{
+  "type": "raurus:interstice",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "raurus:interstice",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "block": "minecraft:water",
+          "height": 64
+        }
+      ]
+    }
+  }
+}

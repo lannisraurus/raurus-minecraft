@@ -1,0 +1,93 @@
+{
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "frozen",
+  "effects": {
+    "sky_color": 13428223,
+    "fog_color": 13428223,
+    "water_color": 13428223,
+    "water_fog_color": 13428223,
+    "grass_color": 11596484,
+    "foliage_color": 11596484,
+    "particle": {
+      "options": {
+        "type": "minecraft:snowflake"
+      },
+      "probability": 0.11
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:polar_bear",
+        "weight": 100,
+        "minCount": 6,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:fox",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:stray",
+        "weight": 80,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 80,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:fox": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:stray": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:phantom": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:polar_bear": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+  "minecraft:spider": {
+    "energy_budget": 0.15,
+    "charge": 0.7
+  }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    ["minecraft:pile_ice"],
+    [],
+    [],
+    [],
+    [],
+    [],
+    ["minecraft:spruce_on_snow","minecraft:patch_berry_bush","minecraft:patch_pumpkin","minecraft:spruce","minecraft:trees_snowy","minecraft:trees_taiga"],
+    ["minecraft:freeze_top_layer"]
+  ],
+  "starts":[
+    "minecraft:village_snowy"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "temperature": -100,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "frozen",
+  "effects": {
+    "sky_color": 13428223,
+    "fog_color": 13428223,
+    "water_color": 13428223,
+    "water_fog_color": 13428223,
+    "grass_color": 11596484,
+    "foliage_color": 11596484,
+    "particle": {
+      "options": {
+        "type": "minecraft:snowflake"
+      },
+      "probability": 0.11
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:polar_bear",
+        "weight": 100,
+        "minCount": 6,
+        "maxCount": 6
+      },
+      {
+        "type": "minecraft:hoglin",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 6
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 5
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:snow_golem": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    },
+    "minecraft:polar_bear": {
+      "energy_budget": 0.15,
+      "charge": 0.7
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    ["minecraft:iceberg_blue","minecraft:iceberg_packed","minecraft:ice_spike","minecraft:ice_patch","minecraft:pile_ice"],
+    [],
+    ["minecraft:blue_ice"],
+    [],
+    [],
+    [],
+    ["minecraft:trees_snowy"],
+    ["minecraft:freeze_top_layer"]
+  ]
+}
