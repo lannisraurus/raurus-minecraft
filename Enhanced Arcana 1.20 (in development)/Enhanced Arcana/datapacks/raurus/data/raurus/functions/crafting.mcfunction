@@ -1,3 +1,13 @@
+# life staff
+execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:amethyst_shard",Count:2b}}] if block ~ ~-1 ~ crafting_table if entity @e[distance=..1,type=item,nbt={Item:{id:"minecraft:emerald",Count:1b}}] if entity @e[distance=..1,type=item,nbt={Item:{id:"minecraft:stick",Count:2b}}] if entity @e[distance=..1,type=item,nbt={Item:{Count:5b,tag:{magic_essence:1b}}}] if entity @e[distance=..1,type=item,nbt={Item:{Count:5b,tag:{life_essence:1b}}}] run summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["life_wand"]}
+execute at @e[tag=life_wand,type=armor_stand] run kill @e[type=item,distance=..1]
+execute at @e[tag=life_wand,type=armor_stand] run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Staff of Life","color":"#009400","bold":true}',Lore:['{"text":"Right-Click - Player healing orb (30 mana)","color":"#3CFF00"}','{"text":"Shift Right-click: Regen near players (30 mana)","color":"#3CFF00"}']},Unbreakable:1b,CustomModelData:11,life_staff:1b,Enchantments:[{}]}}}
+execute at @e[tag=life_wand,type=armor_stand] run playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 2
+execute at @e[tag=life_wand,type=armor_stand] run playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 1.5
+kill @e[tag=life_wand,type=armor_stand]
+
+
+
 
 # light staff 
 execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:amethyst_shard",Count:2b}}] if block ~ ~-1 ~ crafting_table if entity @e[distance=..1,type=item,nbt={Item:{id:"minecraft:gold_ingot",Count:5b}}] if entity @e[distance=..1,type=item,nbt={Item:{id:"minecraft:stick",Count:2b}}] if entity @e[distance=..1,type=item,nbt={Item:{Count:10b,tag:{magic_essence:1b}}}] run summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["light_wand"]}
