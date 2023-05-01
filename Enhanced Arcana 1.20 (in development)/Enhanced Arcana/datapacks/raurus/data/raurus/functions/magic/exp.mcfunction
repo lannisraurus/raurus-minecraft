@@ -1,6 +1,6 @@
 # kill exp
 scoreboard players add @a[scores={exp_kill=1..}] exp 7
-scoreboard players add @a[scores={exp_kill=1..}] blood 3
+scoreboard players add @a[scores={exp_kill=1..}] blood 2
 scoreboard players add @a[scores={trade=1..}] exp 4
 scoreboard players add @a[tag=blood_demon,scores={exp_kill=1..}] blood 1
 effect give @a[tag=blood_demon,scores={exp_kill=1..}] regeneration 5 0 true

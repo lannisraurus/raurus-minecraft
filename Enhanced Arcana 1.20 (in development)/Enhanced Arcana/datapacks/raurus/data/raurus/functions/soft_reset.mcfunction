@@ -32,6 +32,8 @@ tag @s remove knows_rot_wave
 tag @s remove knows_electros
 tag @s remove knows_levitae
 tag @s remove knows_levitation_orb
+tag @s remove knows_lifesteal_ray
+tag @s remove knows_undead_rapture
 
 tag @s add update_player
 

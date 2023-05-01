@@ -22,16 +22,16 @@ scoreboard players set @a[scores={lvl_up=..0}] lvl_up 0
 
 # status effects
 tag @e remove scared
-tag @a remove bleeding
+tag @e remove bleeding
 tag @e remove poisoned
-tag @a remove burning
-tag @a remove rooted
-tag @a remove blinded
-tag @a remove rotting
-tag @a remove mana_bound
-tag @a remove mana_drain
-tag @a remove regen
-tag @a remove cured
+tag @e remove burning
+tag @e remove rooted
+tag @e remove blinded
+tag @e remove rotting
+tag @e remove mana_bound
+tag @e remove mana_drain
+tag @e remove regen
+tag @e remove cured
 
 
 #safe zones

@@ -90,3 +90,74 @@ clear @a[tag=learn_levitation_orb] carrot_on_a_stick{levitation_orb_scroll:1b} 1
 execute at @a[tag=learn_levitation_orb] run playsound minecraft:block.enchantment_table.use ambient @a[distance=..4]
 execute at @a[tag=learn_levitation_orb] run particle enchant ~ ~1 ~ 0.5 0.5 0.5 0 40 force
 tag @a remove learn_levitation_orb
+
+
+
+
+
+
+
+
+
+
+
+
+tag @a[scores={use_carrot_on_a_stick=1..},nbt={SelectedItem:{tag:{banishment_orb_scroll:1b}}},tag=!knows_banishment_orb] add learn_banishment_orb
+tag @a[tag=learn_banishment_orb] add knows_banishment_orb
+scoreboard players add @a[tag=learn_banishment_orb] exp 80
+clear @a[tag=learn_banishment_orb] carrot_on_a_stick{banishment_orb_scroll:1b} 1
+execute at @a[tag=learn_banishment_orb] run playsound minecraft:block.enchantment_table.use ambient @a[distance=..4]
+execute at @a[tag=learn_banishment_orb] run particle enchant ~ ~1 ~ 0.5 0.5 0.5 0 40 force
+tag @a remove learn_banishment_orb
+
+
+
+
+
+
+
+
+
+
+tag @a[scores={use_carrot_on_a_stick=1..},nbt={SelectedItem:{tag:{blink_scroll:1b}}},tag=!knows_blink] add learn_blink
+tag @a[tag=learn_blink] add knows_blink
+scoreboard players add @a[tag=learn_blink] exp 80
+clear @a[tag=learn_blink] carrot_on_a_stick{blink_scroll:1b} 1
+execute at @a[tag=learn_blink] run playsound minecraft:block.enchantment_table.use ambient @a[distance=..4]
+execute at @a[tag=learn_blink] run particle enchant ~ ~1 ~ 0.5 0.5 0.5 0 40 force
+tag @a remove learn_blink
+
+
+
+
+
+
+
+
+
+
+
+tag @a[scores={use_carrot_on_a_stick=1..},nbt={SelectedItem:{tag:{learn_lifesteal_ray:1b}}},tag=!knows_lifesteal_ray] add learn_lifesteal_ray
+tag @a[tag=learn_lifesteal_ray] add knows_lifesteal_ray
+scoreboard players add @a[tag=learn_lifesteal_ray] exp 80
+clear @a[tag=learn_lifesteal_ray] carrot_on_a_stick{learn_lifesteal_ray:1b} 1
+execute at @a[tag=learn_lifesteal_ray] run playsound minecraft:block.enchantment_table.use ambient @a[distance=..4]
+execute at @a[tag=learn_lifesteal_ray] run particle enchant ~ ~1 ~ 0.5 0.5 0.5 0 40 force
+tag @a remove learn_lifesteal_ray
+
+
+
+
+
+
+
+
+
+
+tag @a[scores={use_carrot_on_a_stick=1..},nbt={SelectedItem:{tag:{learn_undead_rapture:1b}}},tag=!knows_undead_rapture] add learn_undead_rapture
+tag @a[tag=learn_undead_rapture] add knows_undead_rapture
+scoreboard players add @a[tag=learn_undead_rapture] exp 80
+clear @a[tag=learn_undead_rapture] carrot_on_a_stick{learn_undead_rapture:1b} 1
+execute at @a[tag=learn_undead_rapture] run playsound minecraft:block.enchantment_table.use ambient @a[distance=..4]
+execute at @a[tag=learn_undead_rapture] run particle enchant ~ ~1 ~ 0.5 0.5 0.5 0 40 force
+tag @a remove learn_undead_rapture

@@ -32,6 +32,7 @@ function raurus:magic/scrolls
 function raurus:magic/display
 
 function raurus:npc_interact
+function raurus:roleplay
 
 function raurus:magic/exp
 
@@ -51,6 +52,9 @@ function raurus:reset_tags_and_scoreboards
 
 
 
+# kill items
+kill @e[type=item,nbt={Item:{tag:{kill:1b}}}]
+
 # death counter update
 execute as @e[tag=death_text2] run data merge entity @s {text:'{"score":{"name":"deaths","objective":"deaths"},"color":"red"}'}
 
@@ -68,9 +72,6 @@ execute as @e[type=pig] run data merge entity @s {Attributes:[{Name:generic.foll
 scoreboard players set @a[tag=admin] blood 1000
 scoreboard players add @a[tag=admin] mana 1000
 scoreboard players set @a[tag=admin] freeze 0
-
-
-
 
 
 # ender chest
@@ -101,12 +102,6 @@ item replace entity @a enderchest.25 with red_stained_glass_pane{display:{Name:'
 item replace entity @a enderchest.26 with red_stained_glass_pane{display:{Name:'{"text":"BLOCKED","color":"#FF0000","italic":false}'},erase:1b} 1
 
 
-
-
-
-
-
-
 # entity Count
 scoreboard players set total count 0
 scoreboard players set skeletons count 0
@@ -121,3 +116,10 @@ execute as @e[type=creeper] run scoreboard players add creepers count 1
 execute as @e[type=zombie] run scoreboard players add zombies count 1
 execute as @e[type=item] run scoreboard players add items count 1
 execute as @a run scoreboard players add players count 1
+
+
+
+# player id system
+execute as @a[tag=!player_id] run scoreboard players add total player_id 1
+scoreboard players operation @a[tag=!player_id] player_id = total player_id
+tag @a add player_id

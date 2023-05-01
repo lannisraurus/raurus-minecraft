@@ -40,7 +40,13 @@ execute as @a[scores={teleport_time1=1}] at @s run playsound minecraft:block.por
 
 
 
-execute in raurus:interstice run tag @a[scores={teleport_time1=140..},nbt=!{Dimension:"raurus:interstice"}] add warp_lobby
+tag @a[scores={teleport_time1=140..},nbt=!{Dimension:"raurus:interstice"}] add warp_lobby
+
+execute as @a[tag=warp_lobby,nbt={Dimension:"minecraft:overworld"}] at @s run summon marker ~ ~ ~ {Tags:["portal"]}
+execute as @a[tag=warp_lobby,nbt={Dimension:"minecraft:the_nether"}] at @s run summon marker ~ ~ ~ {Tags:["portal"]}
+execute as @a[tag=warp_lobby] at @s run scoreboard players operation @e[tag=portal,distance=..3,limit=1,sort=nearest] player_id = @s player_id
+execute at @a[tag=warp_lobby] run forceload add ~ ~
+
 execute in raurus:interstice run tp @a[tag=warp_lobby] 3 74 8
 execute as @a[tag=warp_lobby] at @s run playsound minecraft:block.portal.travel master @s ~ ~ ~ 0.5 0.6
 tag @a[tag=warp_lobby] remove lobby_tp
@@ -51,6 +57,11 @@ tag @a remove warp_lobby
 execute in minecraft:overworld run tag @a[scores={teleport_time1=140..},nbt={Dimension:"raurus:interstice"}] add warp_overworld
 execute as @a[tag=warp_overworld] at @s in minecraft:overworld run tp @s ~ 200 ~
 execute as @a[tag=warp_overworld] at @s in minecraft:overworld run spreadplayers ~ ~ 0 1 false @s
+
+execute as @e[tag=portal,type=marker] run function raurus:do_tp
+execute at @a[tag=warp_overworld] run kill @e[distance=..2,tag=portal,type=marker]
+execute at @a[tag=warp_overworld] run forceload remove ~ ~
+
 execute as @a[tag=warp_overworld] at @s run playsound minecraft:block.portal.travel master @s ~ ~ ~ 0.5 0.6
 tag @a[tag=warp_overworld] remove lobby_tp
 scoreboard players set @a[tag=warp_overworld] teleport_time1 0

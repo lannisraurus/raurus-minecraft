@@ -141,13 +141,13 @@ execute as @a[tag=rotting,scores={rot_time=..0}] at @s run playsound minecraft:e
 execute as @a[tag=rotting,scores={rot_time=..0}] at @s run playsound minecraft:entity.wither.ambient ambient @s ~ ~ ~ 0.2 0.50
 execute as @a[tag=rotting,scores={rot_time=..0}] at @s run playsound minecraft:entity.wither.ambient ambient @s ~ ~ ~ 0.2 1.00
 
-scoreboard players set @a[tag=rotting,scores={rot_time=..0}] rot_time 200
+scoreboard players set @e[tag=rotting] rot_time 200
 
-effect give @a[scores={rot_time=200}] wither 10 1 true
+effect give @e[scores={rot_time=200}] wither 10 1 true
 
-scoreboard players remove @a[scores={rot_time=1..}] rot_time 1
+scoreboard players remove @e[scores={rot_time=1..}] rot_time 1
 
-execute at @a[scores={rot_time=1..}] run particle minecraft:sculk_charge 0 ~ ~1 ~ 0.3 0.5 0.3 0 1 normal
+execute at @e[scores={rot_time=1..}] run particle minecraft:sculk_charge 0 ~ ~1 ~ 0.3 0.5 0.3 0 1 normal
 
 
 

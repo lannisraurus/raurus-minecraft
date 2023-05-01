@@ -25,7 +25,7 @@ execute at @e[tag=fast_creeper] run particle flame ~ ~ ~ 0.3 0.1 0.3 0 1 normal
 execute in minecraft:overworld as @e[distance=0..,type=creeper,tag=!selected] run scoreboard players add creeper spawn 1
 
 execute in minecraft:overworld if score creeper spawn matches 1 as @e[type=creeper,tag=!selected] run data merge entity @s {Silent:1b,Tags:["silent_creeper"]}
-execute in minecraft:overworld if score creeper spawn matches 2 as @e[type=creeper,tag=!selected] run data merge entity @s {ExplosionRadius:6b,Tags:["strong_creeper"]}
+execute in minecraft:overworld if score creeper spawn matches 2 as @e[type=creeper,tag=!selected] run data merge entity @s {ExplosionRadius:4b,Tags:["strong_creeper"]}
 execute in minecraft:overworld if score creeper spawn matches 3 as @e[type=creeper,tag=!selected] run data merge entity @s {Attributes:[{Name:generic.movement_speed,Base:0.35}],ExplosionRadius:2b,Fuse:15,Tags:["fast_creeper"]}
 
 tag @e[type=creeper] add selected

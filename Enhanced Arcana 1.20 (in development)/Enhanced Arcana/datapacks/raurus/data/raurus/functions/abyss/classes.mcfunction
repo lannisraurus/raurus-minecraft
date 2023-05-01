@@ -54,7 +54,7 @@ execute as @e[type=interaction,tag=abyss_interaction_3] on target unless entity 
 
 
 
-execute as @e[type=interaction,tag=abyss_interaction_4] on target unless entity @s[tag=has_class] run give @s carrot_on_a_stick{display:{Name:'{"text":"Charm of Protection","color":"#FFCC00","bold":true}',Lore:['{"text":"Only usable by Seraph Clerics","color":"#FFEC45"}','{"text":"Hold to gain passive resistance","color":"#FFEC45"}','{"text":"Shift Right-Click to pray (cure ailments) - 50 blood","color":"#FFEC45"}']},Unbreakable:1b,CustomModelData:20,seraph_charm:1b,Enchantments:[{}]} 1
+execute as @e[type=interaction,tag=abyss_interaction_4] on target unless entity @s[tag=has_class] run give @s carrot_on_a_stick{display:{Name:'{"text":"Charm of Protection","color":"#FFCC00","bold":true}',Lore:['{"text":"Only usable by Seraph Clerics","color":"#FFEC45"}','{"text":"Hold to gain passive resistance","color":"#FFEC45"}','{"text":"Shift Right-Click to pray (cure ailments) - 5 blood","color":"#FFEC45"}']},Unbreakable:1b,CustomModelData:20,seraph_charm:1b,Enchantments:[{}]} 1
 execute as @e[type=interaction,tag=abyss_interaction_4] on target unless entity @s[tag=has_class] run title @s title {"text":"- Seraph Cleric -"}
 execute as @e[type=interaction,tag=abyss_interaction_4] on target unless entity @s[tag=has_class] run title @s subtitle {"text":" "}
 execute as @e[type=interaction,tag=abyss_interaction_4] on target unless entity @s[tag=has_class] run function raurus:classes/get_seraph_cleric

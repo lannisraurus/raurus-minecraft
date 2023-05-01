@@ -54,7 +54,7 @@
             },
             {
               "function": "minecraft:set_nbt",
-              "tag": "{rot_wave_scroll:1b,CustomModelData:68,display:{Name:'{\"text\":\"Scroll of Rot Wave\",\"color\":\"#450073\"}'},shadow_essence:1b,Enchantments:[{}]}"
+              "tag": "{rot_wave_scroll:1b,CustomModelData:68,display:{Name:'{\"text\":\"Scroll of Rot Wave\",\"color\":\"#450073\"}'},Enchantments:[{}]}"
             }
           ],
           "conditions": [

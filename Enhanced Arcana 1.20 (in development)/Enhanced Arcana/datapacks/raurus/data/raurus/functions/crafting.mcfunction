@@ -1,3 +1,17 @@
+# void staff
+execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:amethyst_shard",Count:2b}}] if block ~ ~-1 ~ crafting_table if entity @e[distance=..1,type=item,nbt={Item:{id:"minecraft:diamond",Count:1b}}] if entity @e[distance=..1,type=item,nbt={Item:{id:"minecraft:stick",Count:2b}}] if entity @e[distance=..1,type=item,nbt={Item:{Count:5b,tag:{shadow_essence:1b}}}] run summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["void_wand"]}
+execute at @e[tag=void_wand,type=armor_stand] run kill @e[type=item,distance=..1]
+execute at @e[tag=void_wand,type=armor_stand] run summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Void Staff","color":"#680094","bold":true}',Lore:['{"text":"Switch between spells - Look down and Left Click","color":"#E600FF"}','{"text":"Cast spell -  Right Click","color":"#E600FF"}','{"text":"Spell 1 - Rot Wave (50 mana)","color":"#E600FF"}','{"text":"Spell 2 - Banishment orb (120 mana)","color":"#E600FF"}','{"text":"Spell 3 - Blink (15 mana)","color":"#E600FF"}']},Unbreakable:1b,CustomModelData:15,void_staff:1b,magic_item:1b,Enchantments:[{}]}}}
+execute at @e[tag=void_wand,type=armor_stand] run playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 2
+execute at @e[tag=void_wand,type=armor_stand] run playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 1.5
+kill @e[tag=void_wand,type=armor_stand]
+
+
+
+
+
+
+
 # life staff
 execute at @e[type=minecraft:item,nbt={Item:{id:"minecraft:amethyst_shard",Count:2b}}] if block ~ ~-1 ~ crafting_table if entity @e[distance=..1,type=item,nbt={Item:{id:"minecraft:emerald",Count:1b}}] if entity @e[distance=..1,type=item,nbt={Item:{id:"minecraft:stick",Count:2b}}] if entity @e[distance=..1,type=item,nbt={Item:{Count:5b,tag:{magic_essence:1b}}}] if entity @e[distance=..1,type=item,nbt={Item:{Count:5b,tag:{life_essence:1b}}}] run summon armor_stand ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Invisible:1b,Tags:["life_wand"]}
 execute at @e[tag=life_wand,type=armor_stand] run kill @e[type=item,distance=..1]
