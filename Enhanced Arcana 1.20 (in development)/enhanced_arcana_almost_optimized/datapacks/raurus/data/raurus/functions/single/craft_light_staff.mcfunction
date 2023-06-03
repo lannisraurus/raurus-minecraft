@@ -1,0 +1,4 @@
+kill @e[type=item,distance=..1]
+summon item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{display:{Name:'{"text":"Light Staff","color":"#F7FF00"}',Lore:['{"text":"Switch between spells - Look down and Left Click","color":"#FFFCA8"}','{"text":"Cast spell -  Right Click","color":"#FFFCA8"}','{"text":"Spell 1 - Electros (30 mana) [shift for variation]","color":"#FFFCA8"}','{"text":"Spell 2 - Levitae (15 mana)","color":"#FFFCA8"}','{"text":"Spell 3 - Levitation Orb (45 mana)","color":"#FFFCA8"}']},Unbreakable:1b,CustomModelData:12,light_staff:1b,magic_item:1b,Enchantments:[{}]}}}
+playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 2
+playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 1.5

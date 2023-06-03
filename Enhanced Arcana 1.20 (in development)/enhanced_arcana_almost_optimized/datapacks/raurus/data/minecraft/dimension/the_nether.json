@@ -1,0 +1,60 @@
+{
+  "type": "raurus:tundra",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "raurus:tundra",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "raurus:icy_forest",
+          "parameters": {
+            "temperature": -0.7,
+            "humidity": 0.1,
+            "continentalness": 1,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "raurus:icy_plains",
+          "parameters": {
+            "temperature": -0.7,
+            "humidity": -0.3,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": -0.1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "raurus:icy_wastes",
+          "parameters": {
+            "temperature": -0.55,
+            "humidity": 0.3,
+            "continentalness": 0.2,
+            "erosion": 0,
+            "weirdness": 0.1,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:soul_sand_valley",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": -0.5,
+            "continentalness": 1,
+            "erosion": 0,
+            "weirdness": 0.5,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

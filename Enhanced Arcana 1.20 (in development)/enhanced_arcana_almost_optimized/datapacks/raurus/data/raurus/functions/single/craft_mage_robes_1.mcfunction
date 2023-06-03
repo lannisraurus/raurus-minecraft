@@ -1,0 +1,4 @@
+kill @e[type=item,distance=..1]
+summon item ~ ~ ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:'{"text":"Mage Clothes","color":"#0D1054"}',Lore:['{"text":"Increases Mana Regen Speed","color":"#1994FF"}']},mana_regen:1b,Enchantments:[{}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2.4,Operation:0,UUID:[I;732317719,-1419294602,-1500309253,757223002],Slot:"head"}],SkullOwner:{Id:[I;973333367,849496186,-1253831848,-612160692],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjkzMTk1MjU4MjVmMWYzMDcyN2ViOTQwZDNhMDY0MjZiYzRjZWMwN2ZiZDgwYWY1Y2QxNDZlM2ViMzg3OWY2OCJ9fX0="}]}}}}}
+playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 2
+playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 1.5

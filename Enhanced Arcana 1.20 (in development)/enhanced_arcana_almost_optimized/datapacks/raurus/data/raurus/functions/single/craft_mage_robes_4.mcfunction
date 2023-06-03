@@ -1,0 +1,4 @@
+kill @e[type=item,distance=..1]
+summon item ~ ~ ~ {Item:{id:"minecraft:leather_boots",Count:1b,tag:{display:{Name:'{"text":"Mage Clothes","color":"#0D1054"}',Lore:['{"text":"Increases Mana Regen Speed","color":"#1994FF"}'],color:2031710},mana_regen:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:10s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:2.4,Operation:0,UUID:[I;-1580269784,-1306246060,-2055888648,938335484],Slot:"chest"}]}}}
+playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 2
+playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 1.5

@@ -1,0 +1,4 @@
+clear @s
+title @s title {"text":"Floating Head"}
+item replace entity @s armor.head with player_head{display:{Name:'{"text":"???","color":"#1D00B0"}'},kill:1b,Enchantments:[{}],SkullOwner:{Id:[I;-609492153,971130542,-1091554993,-968068783],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2I1YjBjNzdhMmQ0MWQ4ZDcxNDRlOGE1NmJiOWM0NTZlYTk4MTJkMWNlNjY1Yzc4NjdmYWU4NDllOGM3YzkzMSJ9fX0="}]}}} 1
+item replace entity @s hotbar.0 with carrot_on_a_stick{display:{Name:'{"text":"LIGHT STAFF","color":"#FFB300"}'},CustomModelData:27,kill:1b,light_staff:1b,magic_item:1b} 1

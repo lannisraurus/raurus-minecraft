@@ -1,0 +1,4 @@
+kill @e[type=item,distance=..1]
+summon item ~ ~ ~ {Item:{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{Name:'{"text":"Assassin Clothes","color":"#540000"}',color:327680},Enchantments:[{id:"minecraft:unbreaking",lvl:10s}],AttributeModifiers:[{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.004,Operation:0,UUID:[I;1030925474,-468301589,-1828477925,-1244767974],Slot:"chest"},{AttributeName:"generic.armor",Name:"generic.armor",Amount:2.6,Operation:0,UUID:[I;601923349,2096450807,-1253992039,-18690955],Slot:"chest"}]}}}
+playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 2
+playsound minecraft:block.note_block.bit ambient @a[distance=..4] ~ ~ ~ 0.5 1.5

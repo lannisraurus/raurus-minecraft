@@ -1,0 +1,5 @@
+give @s carrot_on_a_stick{display:{Name:'{"text":"Blacksmith Hammer","color":"#C76300","bold":true}',Lore:['{"text":"A divine weapon from the Blacksmith Order","color":"#FFBB00"}','{"text":"Right Click on fire - Summon Anvil","color":"#FFBB00"}','{"text":"Only use-able by blacksmiths","color":"#FFBB00"}']},Unbreakable:1b,CustomModelData:67,blacksmith_hammer:1b,Enchantments:[{id:"minecraft:loyalty",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:-2.55,Operation:0,UUID:[I;450761234,446319634,-1645098986,-2053498697],Slot:"mainhand"},{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:5.3,Operation:0,UUID:[I;1001129377,-1253422970,-1547328482,1649567932],Slot:"mainhand"}]} 1
+playsound minecraft:block.note_block.bit ambient @s ~ ~ ~ 1 1.00
+playsound minecraft:block.note_block.bit ambient @s ~ ~ ~ 1 2.00
+playsound minecraft:block.note_block.bit ambient @s ~ ~ ~ 1 1.50
+scoreboard players remove @s blood 200
